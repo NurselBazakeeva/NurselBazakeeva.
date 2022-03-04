@@ -5,150 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nursel Bazakeeva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
+      rel="stylesheet">
+    </head>
 <body>
 
 <header class="header">
+<div class="header-inner">
 <div class="container">
 <nav class="header-nav">
-<a href="index.html" class="header-logo">Nursel Bazakeeva</a>
-
+<a id="logo" class="header-logo" href="#home">Nursel Bazakeeva</a>
 <ul class="menu">
 <li class="menu-item">
-
-<li>
-<a href="#" class=" active menu-link">Home</a>
+<a class="menu-link" href="#home">Home</a>
 </li>
 
 <li class="menu-item">
-<a href="#" class="menu-link">Skills</a>
+<a class="menu-link" href="#skills">Skills</a>
 </li>
 
 <li class="menu-item">
-<a href="#" class="menu-link">Code Example</a>
+<a class="menu-link" href="#code">Code Example</a>
 </li>
 
 <li class="menu-item">
-<a href="#" class="menu-link">Portfolio</a>
+<a class="menu-link" href="#portfolio">Portfolio</a>
 </li>
 <li class="menu-item">
-<a href="#" class="menu-link">Languages</a>
+<a class="menu-link" href="#languages">Languages</a>
 </li>
 <li class="menu-item">
-<a href="#" class="menu-link">Education</a>
+<a class="menu-link" href="#edication">Education</a>
 </li>
 </ul>
  </nav>
 </div>
 </header>
 
-<img src="images/photo.jpg" alt="My photo"/>
-       
+<main>
+<section class="intro">
+<div class="container">
+<div class="intro-inner">
+<div class="intro-left">
+<img class="intro-img" src="images/photo.jpg" alt="My photo"/>
+</div>
+<div class="intro-right">   
 <h1>Nursel Bazakeeva</h1>
 
 <h3>Front-end Developer</h3>
 
-<p>I haven't written about myself for a long time. The first thing that came to my mind was that I was positive,
+<p> I haven't written about myself for a long time. The first thing that came to my mind was that I was positive,
 cheerful, purposeful. But over the years, I realized that I became responsible but boring. I get what I want. 
 Always looking for something new.</p>
+</div>
+</section>
 
-<h3>Contacts</h3>
-
-
-<h4>Location</h4>
-
+<section class="contacts">
+<div class="container">
+<h2 class="section-title">Contacts</h2>
 <ul>
 <li>
+<h4>Location</h4>
 <p>Bishkek, Kyrgyzstan</p>
 </li>
-</ul>
-
-<h4>Phone number</h4>
-
-<ul>
 <li>
+<h4>Phone number</h4>
 <a href="tel:+996703050188">+996 703050188</a>
 </li>
-</ul>
-
-<h4>Email</h4>
-
-<ul>
 <li>
+<h4>Email</h4>
 <a href="email:nursel.bazakeeva.kk@gmail.com">nursel.bazakeeva.kk@gmail.com</a>
 </li>
 </ul>
+</div>
+</section>
 
-<main>
-<section id="skills">
-
-<h2>Skills</h2>
-
+<section id="skills" class="skills section">
+<div class="container">
+<h2 class="section-title">Skills</h2>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
 <li>Git, GitHub</li>
 </ul>
+</div>
 </section>
 
-<section id="code">
-
-<h2>Code Example</h2>
-
+<section class="code-example section">
+<div class="container">
+<h2 id="code" class="section-title">Code example</h2>
 <p>I just started learning JavaScript.</p>
 <p><b>Just showing an example:</b></p>
-
 <pre>
 <code>
                  let name="Nursel";
                  console.log(name);
 </code>
 </pre>
-<a href="https://github.com/NurselBazakeeva/grid.git"
- target="_blank">View project</a>
+</div>
 </section>
 
-<h2>Portfolio</h2>
-
+<section id="portfolio" class="portfolio section">
+<div class="container">
+<h2 class="portfolio">Portfolio</h2>
+<div class="grid-form">
+<div class="grids rad">
+<h3>Grids</h3>
+<img class="form-img" src="images/photo1.jpg" alt="photo1" />
+<button><a class="shirt" href="https://github.com/NurselBazakeeva/grid.git" target="_blank">Grid</a></button>
+</div>
+<div class="animation rad">
 <h3>Animation</h3>
-
-<a href="https://github.com/NurselBazakeeva/-nimation.git"
-target="_blank">View project</a>
-
-
-<section id="languages">
-
-<h2>Languages</h2>
-
+<img class="form-img" src="images/photo2.jpg" alt="photo2" />
+<button><a class="shirt" href="https://github.com/NurselBazakeeva/-nimation" target="_blank">Animation</a></button>
+</div>
+</div>
+</div>
+</section>
+<section id="languages" class="languages section">
+<div class="container">
+<h2 class="section-title">Languages</h2>
 <ul>
 <li><b>English</b> &mdash; Beginner</li>
 <li><b>Russian</b> &mdash; Fluent</li>
 <li><b>Kyrgyz</b> &mdash; Native</li>
 </ul>
+</div>
 </section>
-	
-<section id="education">
 
-<h2>Education</h2>
-	
+<section id="education" class="education section">
+<div class="container">
+<h2 class="section-title">Education</h2>
 <ul>
 <li>
 <b>Professional communication lyceum №98</b>,postal service.</li>
 <li>
 <b>Kyrgyz State Technical University</b>,institute of electronics and telecommunications. </li>
 </ul>
+</div>
 </section>
-
 </main>
 	
 <footer>
+    <div class="container section">
+<div class="footer-link">
 <p>
-2022 &copy;
-<a href="https://github.com/NurselBazakeeva">Me on GitHub</a>
+<a href="https://github.com/NurselBazakeeva" class="link">Me on GitHub</a>
+</div>
 <br>
-<a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy </a>
+<div class="footer">
+<a href="https://linktr.ee/jyldyzacademy2020" >Jyldyz Academy </a>
 </p>
+</div>
+</div>
 </footer>
 </body>
 </html>
